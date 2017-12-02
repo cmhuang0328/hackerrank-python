@@ -1,5 +1,6 @@
 # In Python 3
-“”“ Task
+'''
+Task
 Given an integer, , perform the following conditional actions:
 If n is odd, print Weird
 If n is even and in the inclusive range of  to , print Not Weird
@@ -10,7 +11,8 @@ Input Format
 A single line containing a positive integer, n.
 
 Constraints
-1 <= n <= 100 """
+1 <= n <= 100 
+'''
 
 if __name__ == '__main__':
     n = int(input())
