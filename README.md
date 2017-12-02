@@ -1,2 +1,2 @@
 # hackerrank-python
-hackerrank python
+hackerrank python 3
