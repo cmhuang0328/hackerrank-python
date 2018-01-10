@@ -20,3 +20,13 @@ Output Format
 Print the name(s) of any student(s) having the second lowest grade in Physics; if there are multiple students, 
 order their names alphabetically and print each one on a new line.
 '''
+
+if __name__ == '__main__':
+    marksheet = []
+    for _ in range(0, int(input())):
+        name = input()
+        score = float(input())
+        marksheet.append([name, score])
+    second_highest = sorted(list(set([marks for name, marks in marksheet])))[1]
+    # Use join to select second_highest
+    print('\n'.join([a for a, b in sorted(marksheet) if b == second_highest]))
